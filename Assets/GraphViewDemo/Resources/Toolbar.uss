@@ -1,0 +1,15 @@
+Toolbar {
+	background-color: #191919;
+}
+
+Toolbar > * {
+    padding-left : 12;
+    padding-right : 12;
+}
+
+Toggle {
+    flex-direction: row-reverse;
+}
+Label{
+    min-width : none;
+}
