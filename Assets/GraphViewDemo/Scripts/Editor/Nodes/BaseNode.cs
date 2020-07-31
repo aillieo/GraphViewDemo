@@ -10,6 +10,7 @@ namespace AillieoUtils.GraphViewDemo.Editor
     {
         protected BaseNode()
         {
+            AddToClassList("BaseNode");
             StyleSheetUtils.AddStyleSheets(this, "Node");
             title = this.DisplayName;
         }

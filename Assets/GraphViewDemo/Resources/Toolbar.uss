@@ -3,13 +3,10 @@ Toolbar {
 }
 
 Toolbar > * {
-    padding-left : 12;
-    padding-right : 12;
+    padding-left : 12px;
+    padding-right : 12px;
 }
 
 Toggle {
     flex-direction: row-reverse;
-}
-Label{
-    min-width : none;
 }
